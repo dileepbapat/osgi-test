@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="adder-buggy-1.0.jar" outputPathType="OsgiOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="org.motechproject.test.adder.buggy.Activator" bundleSymbolicName="org.motechproject.test.adder-buggy" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="null" />
+          <property key="Import-Package" value="org.osgi.framework,org.motechproject.test.adder.api" />
+          <property key="Export-Package" value="org.motechproject.test.buggy" />
+          <property key="Private-Package" value="org.motechproject.test.adder.buggy" />
+          <property key="Bundle-Name" value="org.motechproject.test.adder-buggy" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="adder-api" />
+    <orderEntry type="library" name="Maven: org.osgi:org.osgi.core:4.2.0" level="project" />
+  </component>
+</module>
+

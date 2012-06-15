@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/adder-api/adder-api.iml" filepath="$PROJECT_DIR$/adder-api/adder-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adder-buggy/adder-buggy.iml" filepath="$PROJECT_DIR$/adder-buggy/adder-buggy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adder-bundle/adder-bundle.iml" filepath="$PROJECT_DIR$/adder-bundle/adder-bundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adder-client/adder-client.iml" filepath="$PROJECT_DIR$/adder-client/adder-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adder-impl/adder-impl.iml" filepath="$PROJECT_DIR$/adder-impl/adder-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adder-web/adder-web.iml" filepath="$PROJECT_DIR$/adder-web/adder-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osgi-test.iml" filepath="$PROJECT_DIR$/osgi-test.iml" />
+    </modules>
+  </component>
+</project>
+
